@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./rockpaperscissor.css" rel="stylesheet">
-    <script src="./rockpaperscissor.js" type="text/javascript"></script>
+    <link href=".//rockpaperscissor.css">
+    
 </head>
 <body>
     <div id="main"> 
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        
-        
-        <input type="button" value="click" onclick="getComputerChoice()">
-        <p id="w"></p>
-    </div>
+        <h1 id="h1">Rock-Paper-Scissors</h1>
     
+        <div id="mdiv">
+            <div id="div1">
+            <img src="/rock.webp" id="img1" height="150px" width="150px">
+            
+            </div>
+            <div id="div2">
+            <img src="/emo.svg" id="img2" height="150px" width="150px">
+            
+            </div>
+            <div id="div3">
+            <img src="/sc.png" id="img3" height="150px" width="150px">
+            
+            </div>
+            <br>
+            
+        </div>
+        <div id="divv">
+        <input type="button"  id="bt1" class="bt" value="rock"  >
+        <input type="button" id="bt2" class="bt" value="paper">
+        <input type="button" id="bt3" class="bt" value="scissors">
+        </div>
+        <div id="tog">
+        <div id="result"></div>
+        <p id="new"></p>
+        </div>
+        
+    </div>
+    <script src="./rockpaperscissor.js" ></script>
+    </div>
 </body>
 </html>
